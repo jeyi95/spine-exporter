@@ -9,7 +9,7 @@ fi
 # Configuration variables
 # The easiest way to configure these, without breaking future script updates
 # would be to create a new script where these variables are properly setup
-GRAPHICS_PATH=${GRAPHICS_PATH:-"C:\Users\Bigglz\Desktop\graphics"}
+GRAPHICS_PATH=${GRAPHICS_PATH:-""}
 EXPORT_PATH=${EXPORT_PATH:-"C:\Users\Bigglz\biglz_jay\Assets\Graphics"}
 SPINE_VERSION=${SPINE_VERSION:-"3.8.99"}
 EXPORT_SETTINGS=${EXPORT_SETTINGS:-"${GRAPHICS_PATH}\aaaa.export.json"}
