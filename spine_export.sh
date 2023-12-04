@@ -12,7 +12,7 @@ fi
 GRAPHICS_PATH=${GRAPHICS_PATH:-"C:\Users\Bigglz\bigglz Dropbox\박제이\bigglz\01.팀\02. 캐릭터팀\01.비글즈 앱_작업\11. 모션 관련\2D SPINE\motion_spine\4foot_Lv1\베이직스킨"}
 EXPORT_PATH=${EXPORT_PATH:-"C:\Users\Bigglz\bigglz Dropbox\박제이\bigglz\01.팀\02. 캐릭터팀\01.비글즈 앱_작업\11. 모션 관련\2D SPINE\motion_spine_json\test_json"}
 SPINE_VERSION=${SPINE_VERSION:-"3.8.99"}
-EXPORT_SETTINGS=${EXPORT_SETTINGS:-"‪C:\Users\Bigglz\bigglz Dropbox\박제이\bigglz\01.팀\02. 캐릭터팀\01.비글즈 앱_작업\11. 모션 관련\2D SPINE\json 내보내기 설정\4족보행 펫 내보내기 설정.export.json"}
+EXPORT_SETTINGS=${EXPORT_SETTINGS:-"C:\Users\Bigglz\bigglz Dropbox\박제이\bigglz\01.팀\02. 캐릭터팀\01.비글즈 앱_작업\11. 모션 관련\2D SPINE\json 내보내기 설정\4족보행 펫 내보내기 설정.export.json"}
 SPINE_EXE=${SPINE_EXE:-""}
 
 # try to auto detect spine executable path
