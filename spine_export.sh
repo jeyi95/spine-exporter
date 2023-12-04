@@ -10,7 +10,7 @@ fi
 # The easiest way to configure these, without breaking future script updates
 # would be to create a new script where these variables are properly setup
 GRAPHICS_PATH=${GRAPHICS_PATH:-"C:\Users\Bigglz\Desktop\spine_export_test"}
-EXPORT_PATH=${EXPORT_PATH:-"C:\Users\Bigglz\Desktop\spine_export_test\test"}
+EXPORT_PATH=${EXPORT_PATH:-"C:\Users\Bigglz\Desktop\spine_export_test/SpineExport/"}
 SPINE_VERSION=${SPINE_VERSION:-"3.8.99"}
 EXPORT_SETTINGS=${EXPORT_SETTINGS:-"${GRAPHICS_PATH}/aaaa.export.json"}
 SPINE_EXE=${SPINE_EXE:-""}
