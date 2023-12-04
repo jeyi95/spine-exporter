@@ -7,8 +7,6 @@ if [ ! -z "$DEBUG" ]; then
 fi
 
 # Configuration variables
-# The easiest way to configure these, without breaking future script updates
-# would be to create a new script where these variables are properly setup
 GRAPHICS_PATH=${GRAPHICS_PATH:-"C:\Users\Bigglz\Desktop\graphics"}
 EXPORT_PATH=${EXPORT_PATH:-"C:\Users\Bigglz\biglz_jay\Assets\Graphics"}
 SPINE_VERSION=${SPINE_VERSION:-"3.8.99"}
@@ -49,7 +47,7 @@ while IFS= read -r -d $'\0' file; do
 	if [ ! -f "${setting_file}" ]; then
 		setting_file="${EXPORT_SETTINGS}"
 	fi
-	spine_args=$"${spine_args} -i $file -o `dirname ${EXPORT_PATH}/$file` -e ${setting_file}"
+	spine_args="${spine_args} -i $file -o $(dirname "${EXPORT_PATH}/$file") -e ${setting_file}"
 done < <(find "${GRAPHICS_PATH}" -iname \*.spine -type f -print0)
 
 "$SPINE_EXE" $spine_args
