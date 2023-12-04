@@ -17,7 +17,7 @@ SPINE_EXE=${SPINE_EXE:-""}
 
 # try to auto detect spine executable path
 if [ ! -f "$SPINE_EXE" ]; then
-	SPINE_EXE="C:/Program Files/Spine/Spine.com"
+	SPINE_EXE="C:/Program Files/Spine/Spine"
 fi
 if [ ! -f "$SPINE_EXE" ]; then
 	SPINE_EXE="/mnt/c/Program Files/Spine/Spine.com"
