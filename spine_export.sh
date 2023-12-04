@@ -9,10 +9,10 @@ fi
 # Configuration variables
 # The easiest way to configure these, without breaking future script updates
 # would be to create a new script where these variables are properly setup
-GRAPHICS_PATH=${GRAPHICS_PATH:-"C:\Users\Bigglz\Desktop\spine_export_test"}
-EXPORT_PATH=${EXPORT_PATH:-"C:\Users\Bigglz\Desktop\spine_export_test/SpineExport/"}
+GRAPHICS_PATH=${GRAPHICS_PATH:-"C:\Users\Bigglz\Desktop\graphics"}
+EXPORT_PATH=${EXPORT_PATH:-"C:\Users\Bigglz\biglz_jay\Assets\Graphics"}
 SPINE_VERSION=${SPINE_VERSION:-"3.8.99"}
-EXPORT_SETTINGS=${EXPORT_SETTINGS:-"${GRAPHICS_PATH}/aaaa.export.json"}
+EXPORT_SETTINGS=${EXPORT_SETTINGS:-"${GRAPHICS_PATH}\aaaa.export.json"}
 SPINE_EXE=${SPINE_EXE:-""}
 
 # try to auto detect spine executable path
